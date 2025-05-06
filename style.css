@@ -1,0 +1,12 @@
+.square{
+    width: 16px;
+    height: 16px;
+    background-color: aqua;
+    border: 5px red solid;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
