@@ -1,8 +1,9 @@
 .square{
     width: 16px;
     height: 16px;
-    background-color: aqua;
-    border: 5px red solid;
+    background-color: white;
+    border: 1px black solid;
+    margin: auto;
 }
 
 .flex-container{

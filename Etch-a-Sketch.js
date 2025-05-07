@@ -3,11 +3,7 @@
 let flexContainer = document.createElement("div");
 flexContainer.setAttribute("class", "flex-container");
 
-//var square = document.createElement("div");
-//flexContainer.appendChild(square);
-
 document.body.appendChild(flexContainer);
-
          
 console.log(createSquares());
 
@@ -19,9 +15,14 @@ function createSquares(){
         for(j = 0; j < 16; j++){
             let square = document.createElement("div");
             square.setAttribute("class","square");
+            square.addEventListener("mouseover",changeColor)
             squareContainer.appendChild(square);
         }
         flexContainer.appendChild(squareContainer);
     }
     
+}
+
+function changeColor(){
+    this.style.backgroundColor = "black";  
 }
