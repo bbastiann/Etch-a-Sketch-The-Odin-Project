@@ -1,4 +1,4 @@
-.square{
+.square {
     width: 16px;
     height: 16px;
     background-color: white;
@@ -6,14 +6,14 @@
     margin: auto;
 }
 
-.flex-container{
+.flex-container {
     display: flex;
     justify-content: center;
-    flex-flow: row wrap;    
+    flex-flow: row wrap;
 }
 
 
-.flex-gameDiv{
+.flex-gameDiv {
     display: flex;
     flex-direction: column;
     justify-content: center;
